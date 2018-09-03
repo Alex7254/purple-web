@@ -1,0 +1,270 @@
+@import url("https://fonts.googleapis.com/css?family=Barlow:400,500,700,800");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: "Barlow", sans-serif;
+  color: #fff; }
+
+main {
+  background: linear-gradient(1.1deg, #010a3f, #6502d3);
+  height: 100vh; }
+  main nav {
+    height: 7vh; }
+    main nav .logo {
+      height: 25px;
+      width: 25px;
+      font-size: 1.2em;
+      padding: 10px;
+      display: inline-block; }
+    main nav ul {
+      text-align: right;
+      width: 35vw;
+      padding: 10px;
+      float: right;
+      margin: 0 auto; }
+      main nav ul li {
+        display: inline;
+        margin-right: 15px;
+        font-size: .9em; }
+        main nav ul li a {
+          text-decoration: none;
+          color: #fff; }
+          main nav ul li a:hover {
+            transition: all 0.7s ease-out;
+            border-bottom: solid 1px #fff; }
+  main .main-desc {
+    text-align: center; }
+    main .main-desc h1 {
+      font-size: 2.2em;
+      margin: 30vh 0 2vh 0; }
+    main .main-desc p {
+      font-size: 1.2em;
+      text-align: center;
+      width: 55vw;
+      margin: auto;
+      word-spacing: 2px; }
+    main .main-desc button {
+      background: #C2095A;
+      border: none;
+      color: #fff;
+      margin-top: 10vh;
+      padding: 9px;
+      border-radius: 15px;
+      width: 90px;
+      cursor: pointer; }
+      main .main-desc button:hover {
+        transition: all 0.7s ease-out;
+        background: #920743;
+        color: inherit; }
+
+.features {
+  background-color: #010a3f;
+  text-align: center;
+  padding: 45px; }
+  .features h1 {
+    font-size: 1.9em;
+    color: #fff;
+    margin: 110px 0 45px; }
+  .features .boxes-area {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 45px; }
+    .features .boxes-area .feature {
+      background: #fff;
+      margin: 15px;
+      width: 350px;
+      height: 390px;
+      border-radius: 10px; }
+      .features .boxes-area .feature .fas {
+        font-size: 6em;
+        margin-top: 6vh;
+        color: #C2095A; }
+      .features .boxes-area .feature h2 {
+        color: #322c52;
+        margin: 20px 0; }
+      .features .boxes-area .feature p {
+        color: #6e7795; }
+
+.pricing {
+  background-color: #010a3f;
+  text-align: center;
+  padding: 45px; }
+  .pricing h1 {
+    font-size: 1.9em;
+    color: #fff;
+    margin: 110px 0 45px; }
+  .pricing p {
+    font-size: 1.3em;
+    margin-bottom: 45px; }
+  .pricing .pricing-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .pricing .pricing-area .package {
+      height: 235px;
+      width: 175px;
+      margin: 25px;
+      background-color: #010e58;
+      border: solid 1px #49498a;
+      border-radius: 10px; }
+      .pricing .pricing-area .package:hover {
+        transition: all 0.7s ease-out;
+        background-image: linear-gradient(-20deg, #b721ff 0%, #21d4fd 100%); }
+        .pricing .pricing-area .package:hover p, .pricing .pricing-area .package:hover h2 {
+          color: #333; }
+      .pricing .pricing-area .package h1 {
+        font-size: 1em;
+        margin: 25px 0 7px 0;
+        color: #C2095A; }
+      .pricing .pricing-area .package h2 {
+        font-size: 3em;
+        font-weight: 500;
+        margin-top: 30px; }
+      .pricing .pricing-area .package p {
+        font-size: .95em;
+        color: #6e7795; }
+
+.testimonials {
+  background-color: #010a3f;
+  text-align: center;
+  padding: 45px; }
+  .testimonials h1 {
+    font-size: 1.9em;
+    color: #fff;
+    margin: 110px 0 45px; }
+  .testimonials .testimonials-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .testimonials .testimonials-area .testimonial {
+      background-color: #010e58;
+      border-radius: 10px;
+      margin: 25px;
+      height: 245px;
+      width: 500px;
+      border: solid 1px #49498a; }
+      .testimonials .testimonials-area .testimonial .t-desc {
+        word-spacing: 2.2px;
+        width: 100%; }
+        .testimonials .testimonials-area .testimonial .t-desc p {
+          font-size: 1.1em;
+          width: 100%;
+          padding: 25px;
+          height: 100px;
+          background-color: #302a4f;
+          border-top-right-radius: 10px;
+          border-top-left-radius: 10px; }
+      .testimonials .testimonials-area .testimonial .user {
+        height: 70px;
+        width: 195px;
+        margin-top: 20px; }
+        .testimonials .testimonials-area .testimonial .user img {
+          height: 55px;
+          width: 55px;
+          border-radius: 100%;
+          float: left;
+          margin: 2.5vh 22px;
+          border: solid 2px #49498a; }
+        .testimonials .testimonials-area .testimonial .user h2 {
+          display: inline-block;
+          font-size: 1em;
+          margin-bottom: 1px;
+          letter-spacing: 1px;
+          margin-top: 3.2vh; }
+        .testimonials .testimonials-area .testimonial .user p {
+          display: inline-block;
+          font-size: .7em;
+          color: #6e7795; }
+
+.end-bg {
+  background: linear-gradient(1.1deg, #6502d3, #010a3f);
+  height: 70vh; }
+
+.end {
+  text-align: center;
+  padding: 45px; }
+  .end h1 {
+    margin: 110px 0 45px;
+    font-size: 1.9em;
+    color: #fff; }
+  .end p {
+    font-size: 1.3em;
+    margin-bottom: 45px; }
+  .end button {
+    background: #C2095A;
+    border: none;
+    color: #fff;
+    margin-top: 35px;
+    padding: 9px;
+    border-radius: 15px;
+    width: 100px;
+    cursor: pointer; }
+    .end button:hover {
+      transition: all 0.7s ease-out;
+      background: #920743;
+      color: inherit; }
+
+footer {
+  width: 100%;
+  height: 75px;
+  background-color: #010e58;
+  display: flex;
+  text-align: right; }
+  footer .f-left {
+    width: 50%;
+    text-align: left;
+    padding: 25px; }
+    footer .f-left a {
+      padding: 15px 5px;
+      color: #fff;
+      text-decoration: none; }
+  footer .f-right {
+    width: 50%;
+    text-align: right; }
+    footer .f-right p {
+      padding: 25px; }
+
+@media screen and (min-width: 767px) and (max-width: 1040px) {
+  main nav ul {
+    width: 75%;
+    padding: 15px 5px; }
+  main .main-desc h1 {
+    font-size: 2em;
+    padding: 0 20px; }
+  main .main-desc p {
+    width: 60vw; } }
+
+@media screen and (max-width: 415px) {
+  main nav ul {
+    width: 75%;
+    padding: 15px 5px; }
+    main nav ul li {
+      font-size: .7em; }
+  main .main-desc h1 {
+    font-size: 1.1em;
+    padding: 0 20px; }
+  main .main-desc p {
+    width: 60vw;
+    font-size: .65em;
+    width: 90%; }
+  .features .boxes-area {
+    padding: 20px; }
+    .features .boxes-area .feature {
+      width: 395px; }
+  .pricing p {
+    font-size: 1em; }
+  .testimonials .testimonials-area .testimonial .t-desc p {
+    font-size: .9em;
+    padding: 20px; }
+  .end h1 {
+    font-size: 1.6em; }
+  .end p {
+    font-size: 1em; }
+  footer .f-left a {
+    font-size: .7em; }
+  footer .f-right p {
+    font-size: .7em; } }
